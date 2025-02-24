@@ -1,0 +1,4 @@
+<h1>ユーザー情報</h1>
+<p>ユーザー名: <%= @user.user_name %></p>
+<p>Email: <%= @user.email %></p>
+<%= link_to "ログアウト", logout_path, data: { turbo_method: :delete } %>
